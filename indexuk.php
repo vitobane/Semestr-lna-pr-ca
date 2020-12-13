@@ -28,21 +28,21 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#myPage">FOTO</a></li>
-        <li><a href="#otvaraciehodiny">OTVÁRACIE HODINY</a></li>
-        <li><a href="#ponuka">PONUKA</a></li>
-        <li><a href="#kontakt">KONTAKT</a></li>
-        <li><a href="login.php">PRIHLÁSENIE</a></li>
+        <li><a href="#myPage">PHOTO</a></li>
+        <li><a href="#otvaraciehodiny">OPENING TIME</a></li>
+        <li><a href="#ponuka">OFFER</a></li>
+        <li><a href="#kontakt">CONTACT</a></li>
+        <li><a href="loginuk.php">LOGIN</a></li>
         <li class="dropdown">
         <li class="dropdown"> 
   <a href="#" class="dropdow" data-toggle="dropdown" data-close-others="true">
-    <img src="svk.png" width="35" height="20">
+    <img src="uk.png" width="35" height="20">
   </a>
   <ul class="dropdown-menu pull-right">
     <li>
-      <a href="indexuk.php">
-        <img src="uk.png" width="35" height="20" >
-        <span>ENGLISH</span>
+      <a href="index.php">
+        <img src="svk.png" width="35" height="20" >
+        <span>SLOVAK</span>
       </a>
   </ul>
 </li>
@@ -100,10 +100,10 @@
 
 <!-- Otvaracie hodiny -->
 <div id="otvaraciehodiny" class="index text-center">
-  <h3>OTVÁRACIE HODINY</h3>
-  <p>Pondelok - Piatok  </p> </br>
+  <h3>OPENING TIME</h3>
+  <p>Monday - Friday  </p> </br>
   <p>17:00 - 21:00</p> </br>
-  <p>Sobota - Nedeľa  </p> </br>
+  <p>Saturday - Sunday  </p> </br>
   <p>17:00 - 21:00</p> </br>
   <p> 10:00 - 12:00</p> 
   <br>
@@ -112,22 +112,22 @@
 <!-- Ponuka -->
 <div id="ponuka" class="bg-1">
   <div class="index text-center">
-    <h3 class="text-center">VYBRANÁ PONUKA</h3>
+    <h3 class="text-center">SELECTED OFFER</h3>
     <p class="text-center"><br> </p>
     <ul class="list-group">
-      <li class="list-group-item">Pivo Martiner 12% čapované -0,5l -  <span class="label label-danger">1€</span></li>
+      <li class="list-group-item">Pivo Martiner 12%  -0,5l -  <span class="label label-danger">1€</span></li>
       <li class="list-group-item">Zlatý Bažant Radler  -0,5l - <span class="label label-danger">1,10€</span><span class="badge"></span></li>
       <li class="list-group-item">Kofola Originál -0,5l - <span class="label label-danger">0,75€</span></li>
       <li class="list-group-item">Vodka Klasik 40% -0,04l - <span class="label label-danger">0,65€</span></li> 
       <li class="list-group-item">Víno biele suché -0,01l - <span class="label label-danger">0,40€</span></li>  
     </ul>
-    <h3 class="text-center"><a href="login.php" target="_self">CELÁ PONUKA TU!</a></h3> 
+    <h3 class="text-center"><a href="loginUK.php" target="_self">FULL OFFER HERE!</a></h3> 
     </div>
   </div>
   
 <!-- Kontakt -->
 <div id="kontakt" class="index">
-  <h3 class="text-center">KONTAKT</h3> 
+  <h3 class="text-center">CONTACT</h3> 
   <div class="text-center">
     <div class="text-center">
       <p><a href="https://maps.google.com/maps?q=bar%20pod%20lipami&t=&z=13&ie=UTF8&iwloc=&output=embed" target="_blank">

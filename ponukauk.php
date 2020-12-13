@@ -1,7 +1,7 @@
-<?php include('server.php') ?>
+<?php include('serveruk.php') ?>
 <!DOCTYPE html>
 <head>
-  <title>BAR PONUKA</title>
+  <title>BAR OFFER</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -24,19 +24,19 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="index.php">BAR</a><a class="navbar-brand">PONUKA</a>
+      <a class="navbar-brand" href="indexuk.php">BAR</a><a class="navbar-brand">OFFER</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#pivo">PIVO</a></li>
-        <li><a href="#vino">VÍNO</a></li>
-        <li><a href="#alkohol">ALKOHOL</a></li>
-        <li><a href="#nanuky">NANUKY</a></li>
-        <li><a href="#nealko">NEALKO</a></li>
-        <li><a href="#kavacaj">KÁVA/ČAJ</a></li>
-        <li><a href="#drobnytovar">DROBNÝ TOVAR</a></li>
-        <li><a href="profile.php">TVOJ PROFIL</a></li>
-        <li><a href="logout.php">ODHLÁSIŤ</a></li>
+        <li><a href="#pivo">BEER</a></li>
+        <li><a href="#vino">VINE</a></li>
+        <li><a href="#alkohol">ALCOHOL</a></li>
+        <li><a href="#nanuky">ICE-CREAM</a></li>
+        <li><a href="#nealko">NON-ALCOHOL</a></li>
+        <li><a href="#kavacaj">COFFE/TEA</a></li>
+        <li><a href="#drobnytovar">SMALL GOODS</a></li>
+        <li><a href="profileuk.php">YOUR PROFILE</a></li>
+        <li><a href="logout.php">LOG OUT</a></li>
         <li class="dropdown">        
       </ul>
     </div>
@@ -46,8 +46,8 @@
 <!-- PIVO -->
 <div id="pivo" class="container text-center">
   <div class="container text-center">
-    <br><h2 class="text-center">Vítajte <?php echo $_SESSION['username'] ?>! Nech sa páči, naša ponuka:</h2><br>
-    <h3 class="text-center">PIVO</h3>
+    <br><h2 class="text-center">Welcome <?php echo $_SESSION['username'] ?>! Our offer:</h2><br>
+    <h3 class="text-center">BEER</h3>
     <p class="text-center"><br> </p>             
       <ul class="list-group">
           <li class="list-group-item">Pivo Martiner 12% čapované 0,5l  <span class="label label-danger">1€</span></li>
@@ -65,7 +65,7 @@
 <!-- VÍNO -->
 <div id="vino" class="bg-1">
   <div class="container text-center">
-    <h3 class="text-center">VÍNO</h3>
+    <h3 class="text-center">VINE</h3>
     <p class="text-center"><br> </p>
     <ul class="list-group">
       <li class="list-group-item">Víno biele suché 0,1l  <span class="label label-danger">0,4€</span></li>
@@ -78,7 +78,7 @@
 <!-- ALKOHOL -->
 <div id="alkohol" class="container text-center">
   <div class="container">
-    <h3 class="text-center">ALKOHOL</h3>
+    <h3 class="text-center">ALCOHOL</h3>
     <p class="text-center"><br> </p>
     <ul class="list-group">
       <li class="list-group-item">Slov. Borovička Klasik (40%) 0,04l   <span class="label label-danger">0,65€</span></li>
@@ -106,7 +106,7 @@
 <!-- NANUKY -->
 <div id="nanuky" class="bg-1">
   <div class="container text-center">
-    <h3 class="text-center">NANUKY (letná sezóna)</h3>
+    <h3 class="text-center">ICE-CREAM (summer season)</h3>
     <p class="text-center"><br> </p>
     <ul class="list-group">
       <li class="list-group-item">Ruská zmrzlina smotanová 220ml  <span class="label label-danger">0,70€</span></li>
@@ -129,7 +129,7 @@
 <!-- NEALKO -->
 <div id="nealko" class="container text-center">
   <div class="container">
-    <h3 class="text-center">NEALKO</h3>
+    <h3 class="text-center">NON-ALCOHOLIC</h3>
     <p class="text-center"><br> </p>
     <ul class="list-group">
       <li class="list-group-item">Kofola Originál 0,1l<span class="label label-danger">0,15€</span></li>
@@ -150,7 +150,7 @@
 <!-- KÁVA/ČAJ -->
 <div id="kavacaj" class="bg-1">
   <div class="container text-center">
-    <h3 class="text-center">KÁVA/ČAJ</h3>
+    <h3 class="text-center">COFFEE/TEA</h3>
     <p class="text-center"><br> </p>
     <ul class="list-group">
       <li class="list-group-item">Káva zalievaná  <span class="label label-danger">0,70€</span></li>
@@ -166,7 +166,7 @@
 <!-- DROBNY TOVAR -->
 <div id="drobnytovar" class="container text-center">
   <div class="container">
-    <h3 class="text-center">DROBNÝ TOVAR</h3>
+    <h3 class="text-center">SMALL GOODS</h3>
     <p class="text-center"><br> </p>
     <ul class="list-group">
       <li class="list-group-item">Oblátka CBA 40g <span class="label label-danger">0,30€</span></li>
